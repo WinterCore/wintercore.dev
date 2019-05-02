@@ -1,0 +1,13 @@
+export const HEIGHT_MIN           = 3;
+export const HEIGHT_MAX           = 10;
+export const MIN_LINE_WIDTH       = 50;
+export const MAX_LINE_WIDTH_SCALE = 5;
+export const PADDING_TOP          = 0;
+export const PADDING_BOTTOM       = 0;
+export const MAX_CONCURRENT_LINES = 20;
+export const DIRECTION_RATIO      = 1 / 2;
+export const MIN_SPEED            = 0.3;
+export const MAX_SPEED            = 1;
+export const COLOR: color         = { r : 255, g : 255, b : 255 };
+export const COLOR_OPACITY_MIN    = 0.1;
+export const COLOR_OPACITY_MAX    = 0.4;

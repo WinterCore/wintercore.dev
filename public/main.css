@@ -1,0 +1,74 @@
+html, body {
+    min-height  : 100vh;
+    margin      : 0;
+    font-family : Raleway, sans-serif;
+}
+
+main {
+    background-image    : url("/background.gif");
+    min-height          : 100vh;
+    background-size     : cover;
+    background-position : center center;
+    display             : flex;
+    flex-direction      : column;
+    justify-content     : center;
+    align-items         : center;
+}
+
+main .info {
+    color      : #FFF;
+    text-align : center;
+}
+
+main .info h1 {
+    font-size : 50px;
+    margin    : 20px 0;
+}
+
+main .info-inner {
+    position : relative;
+    z-index  : 3;
+}
+
+main .info h2 {
+    font-size : 18px;
+    margin    : 30px;
+    color     : rgba(255, 255, 255, 0.75);
+}
+
+main .avatar img {
+    overflow      : hidden;
+    border-radius : 50%;
+}
+
+main .links {
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+main .links div {
+    height : 36px;
+    margin : 0 10px;
+}
+
+main .links div.email-link {
+    height : 32px;
+    margin : 0 10px;
+}
+
+main .links a:hover {
+    transition : filter 100ms linear;
+    filter     : blur(2px);
+}
+
+main .links img {
+    height : 100%;
+}
+
+canvas#background {
+    position : absolute;
+    top      : 0;
+    left     : 0;
+    z-index  : 1;
+}

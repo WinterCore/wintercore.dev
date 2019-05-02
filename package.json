@@ -1,0 +1,37 @@
+{
+  "name": "wintercore.xyz",
+  "version": "1.0.0",
+  "description": "The official website for www.wintercore.xyz",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack --progress --mode production",
+    "build:watch": "webpack --watch --progress --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WinterCore/wintercore.xyz.git"
+  },
+  "keywords": [
+    "wintercore"
+  ],
+  "author": "WinterCore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WinterCore/wintercore.xyz/issues"
+  },
+  "homepage": "https://github.com/WinterCore/wintercore.xyz#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.7.0",
+    "@typescript-eslint/parser": "^1.7.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.16.0",
+    "ts-loader": "^5.4.5",
+    "typescript": "^3.4.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
