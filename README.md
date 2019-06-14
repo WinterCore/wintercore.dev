@@ -1,5 +1,5 @@
 
-The code for the website [https://www.wintercore.xyz/](https://www.wintercore.xyz/)
+The code for the website [https://www.wintercore.dev/](https://www.wintercore.xyz/)
 
 ## How to run locally
 
